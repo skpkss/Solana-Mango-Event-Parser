@@ -1,5 +1,6 @@
 # Solana Mango Event Parser
-## Commands for executing:- 
+## Commands for executing:-
+```
 1. node --version
 2. npm --version
 3. npm install -g typescript
@@ -12,6 +13,7 @@
 10. npx ts-node queryTransactions.ts         (Querying transactions from Mango’s program account)
 11. npm install --save bn.js                 (to format BN)
 12. npx ts-node parseMangoEvent.ts           (logging the parsed data along with the transaction signature & block time)
+```
 
 
  ##   Sample output of solana mainnet connection:-
