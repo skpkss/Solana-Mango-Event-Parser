@@ -17,6 +17,7 @@
 
 
  ##   Sample output of solana mainnet connection:-
+ ```
     Connection to Solana Mainnet Beta successful!
 Epoch Info: {
   absoluteSlot: 239833260,
@@ -26,8 +27,10 @@ Epoch Info: {
   slotsInEpoch: 432000,
   transactionCount: 259047258051
 }
+```
 
 ## Sample Output of query transactions:-
+```
 Mango Transactions: [
   {
     blockTime: 1704602007,
@@ -37,8 +40,10 @@ Mango Transactions: [
     signature: '5UGUot82kEeXuyUv3CxPSQ589LU3LsyTKH4pdBGzy8K19YUC2a2QkveNwmy9HewxiCPqc65iK8CT6XiSPoVwLJwB',
     slot: 240332209
   }
+```
 
   ## Sample output of  parsed mango events:-
+  ```
   Transaction Signature: 5YCdfD1hmDfR8W9tHQQF4Vgdd2BQ4ymBbGFkHQv3dNR8wDMz3WopcZbCSyt2MsMSG7R7p8XXqf3DfrG86YNJstGz
 Block Time: 7/1/2024, 9:44:05 am
 Mango Event: PerpUpdateFundingLogV2
@@ -58,6 +63,7 @@ Fields: {
   instantaneousFundingRate: '632426666489'
 }
 -----------------------------
+```
 
 ## Features
 
