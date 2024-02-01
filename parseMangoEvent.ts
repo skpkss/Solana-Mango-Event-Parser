@@ -16,7 +16,7 @@ async function queryMangoTransactions() {
   try {
     const connection = new Connection('https://api.mainnet-beta.solana.com', 'confirmed');
     const programAccount = new PublicKey('4MangoMjqJ2firMokCjjGgoK8d4MXcrgL7XJaL3w6fVg');
-    const transactions = await connection.getConfirmedSignaturesForAddress2(programAccount);
+    const transactions = await connection.getSignaturesForAddress(programAccount);
 
     // Create an instance of the EventParser with the correct type
     const eventParser = new EventParser(programAccount, new BorshCoder(mangoIdlObject));
