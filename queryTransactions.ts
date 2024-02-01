@@ -11,7 +11,7 @@ async function queryMangoTransactions() {
     const programAccount = mangoProgramId;
 
     // Fetch recent transactions for the specified program account
-    const transactions = await connection.getConfirmedSignaturesForAddress2(programAccount);
+    const transactions = await connection.getSignaturesForAddress(programAccount);
 
     console.log('Mango Transactions:', transactions);
   } catch (error) {
